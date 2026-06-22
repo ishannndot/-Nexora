@@ -106,6 +106,3 @@ npm run dev
 * Frontend Developer
 * Full Stack & AI Enthusiast
 
-## 📄 License
-
-This project is licensed under the MIT License.
