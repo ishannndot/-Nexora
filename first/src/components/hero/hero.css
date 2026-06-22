@@ -1,0 +1,76 @@
+.hero{
+    min-height: calc(100vh - 5rem);
+
+    display:flex;
+    flex-direction:column;
+
+    justify-content:center;
+    align-items:flex-start;
+
+    padding-left:6rem;
+    max-width:40rem;
+
+    gap:1rem;
+}
+
+.hero h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size:5rem;
+    font-weight:800;
+}
+
+.hero h3{
+    font-size:2rem;
+    font-weight:500;
+    margin-top:-1rem;
+}
+
+.hero p{
+    font-size:0.8rem;
+    line-height:1.8;
+}
+
+/* Tablet */
+@media (max-width: 768px){
+
+    .hero{
+        padding-left:3rem;
+        max-width:32rem;
+    }
+
+    .hero h1{
+        font-size:4rem;
+    }
+
+    .hero h3{
+        font-size:1.6rem;
+    }
+
+    .hero p{
+        font-size:0.9rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px){
+
+    .hero{
+        padding:0 1.5rem;
+        max-width:100%;
+        align-items:center;
+        text-align:center;
+    }
+
+    .hero h1{
+        font-size:3rem;
+    }
+
+    .hero h3{
+        font-size:1.3rem;
+        margin-top:-0.5rem;
+    }
+
+    .hero p{
+        font-size:0.85rem;
+    }
+}
